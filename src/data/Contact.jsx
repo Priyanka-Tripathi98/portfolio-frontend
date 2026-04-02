@@ -19,7 +19,7 @@ const Contact = () => {
     e.preventDefault(); // VERY IMPORTANT
 
     try {
-      await axios.post("http://localhost:8000/submit", formData);
+      await axios.post("https://portfolio-backend-9kyd.onrender.com/submit", formData);
       alert("Message sent successfully !!");
 
       // clear form
